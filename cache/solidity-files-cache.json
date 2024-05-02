@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\injus\\OneDrive\\Desktop\\docking\\blockchain\\evm\\contracts\\EVM.sol": {
+      "lastModificationDate": 1698203942047,
+      "contentHash": "3c479917bc177f5321c2f5ec1b09494e",
+      "sourceName": "contracts/EVM.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VotingBlock"
+      ]
+    }
+  }
+}

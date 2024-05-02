@@ -1,0 +1,12 @@
+services:
+    main:
+      container_name: vote_container
+      image: devm
+      environment:
+      - API_URL = "https://volta-rpc.energyweb.org/"
+      - PRIVATE_KEY = "b33f3ac3769c1ab43c21545e9ea6ce12af833d8ed1fa0535e20996287cd99445"
+      - CONTRACT_ADDRESS = "0x45cA60AE78D86544c7d7dBd65EFF39cD49B933eD"
+      ports:
+      - 3000:3000
+  
+
